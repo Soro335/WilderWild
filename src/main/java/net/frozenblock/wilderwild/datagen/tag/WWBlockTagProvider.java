@@ -129,7 +129,9 @@ public final class WWBlockTagProvider extends FabricTagProvider.BlockTagProvider
 			.add(Blocks.DIRT)
 			.add(Blocks.SAND)
 			.add(Blocks.RED_SAND)
+			.add(WWBlocks.SINGED_SAND)
 			.add(WWBlocks.SCORCHED_SAND)
+			.add(WWBlocks.SINGED_RED_SAND)
 			.add(WWBlocks.SCORCHED_RED_SAND);
 	}
 
@@ -313,14 +315,14 @@ public final class WWBlockTagProvider extends FabricTagProvider.BlockTagProvider
 
 		this.getOrCreateTagBuilder(WWBlockTags.SCORCHED_SAND_FEATURE_INNER_REPLACEABLE)
 			.add(Blocks.SAND)
-			.add(WWBlocks.SCORCHED_SAND);
+			.add(WWBlocks.SINGED_SAND);
 
 		this.getOrCreateTagBuilder(WWBlockTags.SCORCHED_SAND_FEATURE_REPLACEABLE)
 			.add(Blocks.SAND);
 
 		this.getOrCreateTagBuilder(WWBlockTags.RED_SCORCHED_SAND_FEATURE_INNER_REPLACEABLE)
 			.add(Blocks.RED_SAND)
-			.add(WWBlocks.SCORCHED_RED_SAND);
+			.add(WWBlocks.SINGED_RED_SAND);
 
 		this.getOrCreateTagBuilder(WWBlockTags.RED_SCORCHED_SAND_FEATURE_REPLACEABLE)
 			.add(Blocks.RED_SAND);
@@ -806,7 +808,9 @@ public final class WWBlockTagProvider extends FabricTagProvider.BlockTagProvider
 			.add(WWBlocks.STONE_CHEST)
 			.add(WWBlocks.NULL_BLOCK)
 			.add(WWBlocks.DISPLAY_LANTERN)
+			.add(WWBlocks.SINGED_SAND)
 			.add(WWBlocks.SCORCHED_SAND)
+			.add(WWBlocks.SINGED_RED_SAND)
 			.add(WWBlocks.SCORCHED_RED_SAND)
 			.add(WWBlocks.GEYSER)
 			.add(WWBlocks.CHISELED_MUD_BRICKS)
@@ -818,7 +822,9 @@ public final class WWBlockTagProvider extends FabricTagProvider.BlockTagProvider
 
 		this.getOrCreateTagBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
 			.addOptionalTag(WWBlockTags.MESOGLEA)
+			.add(WWBlocks.SINGED_SAND)
 			.add(WWBlocks.SCORCHED_SAND)
+			.add(WWBlocks.SINGED_RED_SAND)
 			.add(WWBlocks.SCORCHED_RED_SAND)
 			.add(WWBlocks.TERMITE_MOUND);
 
@@ -841,7 +847,9 @@ public final class WWBlockTagProvider extends FabricTagProvider.BlockTagProvider
 			.addOptionalTag(WWBlockTags.NEMATOCYSTS);
 
 		this.getOrCreateTagBuilder(BlockTags.SAND)
+			.add(WWBlocks.SINGED_SAND)
 			.add(WWBlocks.SCORCHED_SAND)
+			.add(WWBlocks.SINGED_RED_SAND)
 			.add(WWBlocks.SCORCHED_RED_SAND);
 
 		this.getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
